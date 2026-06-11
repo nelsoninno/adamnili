@@ -2,8 +2,8 @@
 <svg role="img" aria-label="everybodyknowsyou.com" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1296.95 160.34">
   <defs>
     <style>
-            .cls-1 { fill: var(--eky-bg, #ffffff); }
-      .cls-2 { fill: var(--eky-fg, currentColor); }
+            .cls-1 { fill: #0b1a28; }
+      .cls-2 { fill: #d7dee4; }
     </style>
   </defs>
   <g>
