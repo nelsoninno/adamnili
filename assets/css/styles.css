@@ -224,4 +224,25 @@ h1,h2,h3,h4{font-family:var(--font-display);line-height:1.08;font-weight:700;let
   .about-grid{grid-template-columns:1fr}
   .about-figure{max-width:440px}
   .pillar-grid{grid-template-columns:1fr}
-  .venture-grid{grid-t
+  .venture-grid{grid-template-columns:1fr}
+  .influences{grid-template-columns:1fr;text-align:center}
+  .booklist a{align-items:center}
+  .podcard{text-align:center}
+  .contact-grid{grid-template-columns:1fr}
+  .press-grid{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  body{font-size:16px}
+  .hero-figure{max-width:100%}
+}
+@media (prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;animation:none}
+  html{scroll-behavior:auto}
+}
+
+/* Lead venture: Autoridad Panandina highlighted as the current main focus */
+.venture--lead{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold) inset}
+.venture--lead:hover{box-shadow:0 22px 40px -28px rgba(14,32,49,.5),0 0 0 1px var(--gold) inset}
+.venture--lead p{flex:0 0 auto}
+.venture--lead .venture-link{margin-top:auto;padding-top:1rem}
+.venture-backers{font-family:var(--font-body);font-size:.8rem;line-height:1.45;color:var(--muted);margin-top:.6rem}
