@@ -212,7 +212,7 @@ h1,h2,h3,h4{font-family:var(--font-display);line-height:1.08;font-weight:700;let
   font-family:var(--font-body);font-size:.85rem;color:var(--footer-fg);opacity:.85}
 .eky-credit:hover{opacity:1}
 .eky-credit__text{color:var(--footer-fg)}
-.eky-credit svg{--eky-bg:var(--footer-bg);height:17px;width:auto;display:block}
+.eky-credit .eky-logo{height:17px;width:auto;display:block;opacity:.92}
 
 /* ---------- responsive ---------- */
 @media (max-width:860px){
@@ -227,4 +227,4 @@ h1,h2,h3,h4{font-family:var(--font-display);line-height:1.08;font-weight:700;let
   .press-grid{grid-template-columns:1fr}
 }
 @media (max-width:560px){
-  body{
+  body{font-siz
