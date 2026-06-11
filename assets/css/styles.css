@@ -38,9 +38,13 @@ h1,h2,h3,h4{font-family:var(--font-display);line-height:1.08;font-weight:700;let
 .btn--solid:hover{background:transparent;color:var(--gold)}
 .btn svg{width:15px;height:15px}
 
-/* reveal on scroll - gated by .js so content is visible without JavaScript */
-.js .reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease}
-.js .reveal.in{opacity:1;transform:none}
+/* reveal: CSS-only entrance animation. Always ends visible, no JS dependency,
+   so content can never be left hidden if a script fails to run. */
+.reveal{opacity:1}
+@media (prefers-reduced-motion:no-preference){
+  .reveal{animation:eky-rise .7s ease both}
+}
+@keyframes eky-rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
 
 /* ---------- header ---------- */
 .site-header{
@@ -222,9 +226,4 @@ h1,h2,h3,h4{font-family:var(--font-display);line-height:1.08;font-weight:700;let
   .about-figure{max-width:440px}
   .pillar-grid{grid-template-columns:1fr}
   .venture-grid{grid-template-columns:1fr}
-  .influences{grid-template-columns:1fr}
-  .contact-grid{grid-template-columns:1fr}
-  .press-grid{grid-template-columns:1fr}
-}
-@media (max-width:560px){
-  body{font-siz
+  .influences{grid-template-column
