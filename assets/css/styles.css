@@ -38,13 +38,9 @@ h1,h2,h3,h4{font-family:var(--font-display);line-height:1.08;font-weight:700;let
 .btn--solid:hover{background:transparent;color:var(--gold)}
 .btn svg{width:15px;height:15px}
 
-/* reveal: CSS-only entrance animation. Always ends visible, no JS dependency,
-   so content can never be left hidden if a script fails to run. */
-.reveal{opacity:1}
-@media (prefers-reduced-motion:no-preference){
-  .reveal{animation:eky-rise .7s ease both}
-}
-@keyframes eky-rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+/* reveal: intentionally a no-op. Content is always fully visible, with no
+   dependency on JavaScript or CSS animation, so it can never be left hidden. */
+.reveal{opacity:1;transform:none}
 
 /* ---------- header ---------- */
 .site-header{
@@ -226,4 +222,10 @@ h1,h2,h3,h4{font-family:var(--font-display);line-height:1.08;font-weight:700;let
   .about-figure{max-width:440px}
   .pillar-grid{grid-template-columns:1fr}
   .venture-grid{grid-template-columns:1fr}
-  .influences{grid-template-column
+  .influences{grid-template-columns:1fr}
+  .contact-grid{grid-template-columns:1fr}
+  .press-grid{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  body{font-size:16px}
+  .hero-figure{max-
