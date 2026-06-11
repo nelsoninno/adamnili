@@ -1,0 +1,16 @@
+{
+  "name": "Adam Nili",
+  "short_name": "Adam Nili",
+  "description": "Multidisciplinary thinker working at the meeting point of energy, finance, and education.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b1a28",
+  "theme_color": "#0b1a28",
+  "lang": "en",
+  "icons": [
+    {"src":"/favicon-192x192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"/favicon-512x512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"/apple-touch-icon.png","sizes":"180x180","type":"image/png","purpose":"any"}
+  ]
+}

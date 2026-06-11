@@ -1,0 +1,27 @@
+/* assets/css/tokens.css — colors + fonts ONLY. The one file to edit to re-skin. */
+:root{
+  /* Brand palette — industrial, calm: deep navy ink + brass gold on warm paper */
+  --bg:        #f3f1ea;   /* page background (warm blueprint paper) */
+  --ink:       #0e2031;   /* main text on light */
+  --navy:      #0b1a28;   /* darkest — hero / dark sections */
+  --navy-2:    #12293d;   /* raised dark surface */
+  --gold:      #b8923f;   /* primary accent / links / rules (muted brass) */
+  --gold-soft: #d2b173;   /* lighter gold for accents on dark */
+  --muted:     #596573;   /* secondary text on light */
+  --muted-dark:#93a6b6;   /* secondary text on dark */
+  --surface:   #fbfaf6;   /* cards / alt panels on light */
+  --line:      rgba(14,32,49,.14);   /* hairline on light */
+  --line-dark: rgba(210,220,228,.16);/* hairline on dark */
+
+  /* Footer credit colors (read by the EKY credit logo — see footer-credit.md) */
+  --footer-bg: var(--navy);
+  --footer-fg: #d7dee4;
+
+  /* Fonts */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body:    'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, monospace;
+
+  /* Layout */
+  --max: 1080px;
+}

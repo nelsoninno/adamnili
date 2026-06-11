@@ -1,0 +1,33 @@
+# Adam Nili
+
+> Adam Nili is a lifelong entrepreneur working at the meeting point of energy, finance, and education. He builds and advises companies across Latin America and is focused on helping people become self-sovereign.
+
+## About
+Adam Nili is an entrepreneur, builder, and advisor based between Medellin, Colombia and El Salvador. He has built and advised companies across Argentina, Colombia, Puerto Rico, and El Salvador. He is co-founder and Chief of Staff at Autoridad Panandina (energy infrastructure for large-scale compute), CEO and Founding Partner at Methodos Global (strategic advisory and venture studio for emerging markets), and co-founder and CSO at WeSpark (an innovation and education agency in El Salvador). He works deep rather than wide, favors quality over quantity, and keeps a deliberately low profile while aiming for outsized impact.
+
+## Work
+- Autoridad Panandina, Co-founder & Chief of Staff: energy infrastructure to power large-scale compute in regions of energy abundance. https://panandina.org
+- Methodos Global, CEO & Founding Partner: strategic advisory and venture studio for frontier and emerging markets. https://methodosglobal.com
+- WeSpark, Co-founder & CSO: AI product design, training, and education for institutions. https://wespark.io
+
+## Focus
+- Entrepreneurial mindset
+- Financial literacy and freedom
+- Health literacy
+- Philosophy, focus, and self-sovereignty
+
+## Publications
+- Co-editor of Unstable Innovation (book by Nelson Inno). https://unstableinnovation.com
+
+## Media
+- Forbes, Cointelegraph, Diario El Salvador, El Salvador, Simon Dixon, Fundación Gloria Kriete.
+
+## Links
+- [Website (EN)](https://adamnili.com/)
+- [Website (ES)](https://adamnili.com/es/)
+- [LinkedIn](https://www.linkedin.com/in/adam-nili/)
+- [X](https://x.com/adam_nili)
+- [Instagram](https://www.instagram.com/itsadamnili)
+- [YouTube](https://www.youtube.com/c/adamnili)
+- [Nostr](https://primal.net/p/npub18rtjz55wndqwlmgzpjjl9nr9msutvymc08znv2s0a9r5gk53cwjstc8a7u)
+- [Full content](https://adamnili.com/llms-full.txt)
